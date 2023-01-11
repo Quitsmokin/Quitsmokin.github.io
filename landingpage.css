@@ -34,6 +34,9 @@ background-color: #1F2937;
 
 
 }
+.body1 img{
+    margin: 10px 10px 10px 10px;
+}
 .body1text{
 display:flex;
 flex-direction: column;
