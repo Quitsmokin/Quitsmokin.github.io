@@ -1,0 +1,136 @@
+html,body{
+    height: 100%;
+    min-height: 100%;
+   background: #1F2937;
+    
+}
+/*Styling header location*/
+.hero{
+display:flex;
+flex-direction: row;
+justify-content: space-between;
+background-color: #1F2937;
+}
+.header-links{
+display: flex;
+flex-direction: row;
+gap: 10px;
+align-items: center;
+font-size: 18px;
+color: #888888;
+
+}
+.hero h1{
+font-size: 24px;
+font-weight:bold;
+color: #f9faf8;
+}
+
+/*aligning first body left to right then making text a column*/
+.body1{
+display: flex;
+padding-bottom: 8rem;
+background-color: #1F2937;
+
+
+}
+.body1text{
+display:flex;
+flex-direction: column;
+background-color: #1F2937;
+justify-content: center;
+align-items: flex-start;
+
+}
+.body1text h1 {
+color: #f9faf8;
+font-size: 48px;
+}
+.body1text  p{
+color: #454647;
+margin-bottom: 2rem;
+font-size: 24px;
+} 
+.body1text button{
+
+background-color: #3882f6;
+width: 8em;
+height: 2.5em;
+border-radius: 6px;
+border: #3882f6;
+color: #f9faf8;
+}
+
+.body2{
+display: flex;
+flex-direction: column;
+justify-content: space-around;
+align-items: center;
+background-color: white;
+}
+.body2text{
+display: flex;
+flex-direction: row;
+align-self: center;
+color: #454647;
+margin-bottom: 2rem;
+font-size: 24px;
+}
+.body2text img{
+border: 2px solid #3882f6;
+border-radius: 25px;
+
+}
+.body2text div {
+
+text-align: center;
+}
+.body3{
+
+display: flex;
+flex-direction: column;
+background-color: #e5e7eb;
+}
+.body3 h1{
+color:  #1f2937;
+font-weight: light;
+font-style: italic;
+font-size: 36px;
+font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.body3 h3{
+display: flex;
+justify-content: flex-end;
+font-size: 24px;
+
+}
+.body4{
+margin-top: 2em;
+margin-bottom: 2em;
+background: #3882f6;
+display: flex;
+flex-direction: row;
+justify-content: space-around;
+
+}
+.body4 button{
+align-self: center;
+background: #3882f6;
+width: 200px;
+height: 40px;
+border: 2px solid white;
+border-radius: 6px;
+color: white;
+}
+.body4text{
+display: flex;
+flex-direction: column;
+background: #3882f6;
+color: white;
+
+
+}
+.body6{
+background-color: white;
+padding-bottom: 1em;
+}
